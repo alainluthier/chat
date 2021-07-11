@@ -8,7 +8,6 @@ const session = require('express-session')
 const PORT = process.env.PORT || 5000 // So we can run on heroku || (OR) localhost:5000
 
 const app = express()
-
 const liveChat = require('./routes/liveChat')
 
 app.set('view engine', 'ejs')
